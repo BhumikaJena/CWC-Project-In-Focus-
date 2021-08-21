@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+/*NAVIGATION BAR*/
+.nav{
+  top:0;
+  display: flex;
+  flex-direction:row ;
+  position: fixed;
+  color: white;
+  background-color: black;
+  width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.5vw;
+align-items: center;
+}
+.nav div{
+  padding: 1vw;
+}
+.nav a{
+  text-decoration:none ;
+  color: white;
+}
+/*FRONT IMG*/
+.heading{
+    margin-top:3.7vw;
+    background-image: url('https://cdn.pixabay.com/photo/2018/10/16/21/03/slr-camera-3752493_1280.jpg');
+  padding: 4.5vw;
+  text-align: center;
+  font-size: 5vw;
+  text-shadow: 0.1vw 0.1vw #feb580;
+  }
+  .topic{
+  background-color:rgb(34, 17, 17);
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  }
+  .exp{
+    padding: 1vw;
+    font-family: 'IBM Plex Sans Hebrew', sans-serif;
+  }
+  .down{
+      margin-bottom: 2vw;
+  }
+  #link{
+      text-decoration: none;
+      border-width:0.2vw;
+      border-style: hidden;
+      padding: 1vw;
+      background-color: rgb(136, 136, 136);
+      color: white;
+      margin-left: 45vw;
+      border-radius: 2vw;
+      font-size: 1.2vw;
+  }
+  h3{
+    padding:0.5vw ;
+    font-size:1.4vw;
+  }
+  h4{
+    padding: 0.2vw;
+    font-size: 1.2vw;
+  }
+  p{
+    font-size: 1.2vw;
+    
+  }
+  a:hover{
+    background-color: rgb(155, 153, 153);
+    border-radius: 1vw;
+    padding: 0.5vw;
+    border: solid rgb(61, 61, 61);
+  }
+  #link:hover{
+    border-style: solid;
+    border-color: rgb(87, 86, 86);
+  }
+  @media screen and (max-width: 450px) {
+    .heading{
+      margin-top:3.2vw;
+  }
+}
+
+  
